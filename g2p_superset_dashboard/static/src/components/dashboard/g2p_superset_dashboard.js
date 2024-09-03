@@ -1,6 +1,6 @@
 /** @odoo-module */
-import {registry} from "@web/core/registry";
 import {Component, useState} from "@odoo/owl";
+import {registry} from "@web/core/registry";
 
 export class G2PSupersetDashboardEmbedded extends Component {
     setup() {
