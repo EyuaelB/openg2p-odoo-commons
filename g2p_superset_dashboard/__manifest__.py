@@ -7,9 +7,15 @@
     "author": "OpenG2P",
     "website": "https://openg2p.org",
     "license": "Other OSI approved licence",
-    "depends": ["base"],
+    "depends": ["base", "web"],
     "external_dependencies": {},
-    "data": ["views/res_config_settings.xml", "views/superset_dashboard.xml"],
+    "data": [
+        "views/superset_dashboard_config_views.xml",
+        "views/superset_dashboard_embedding_views.xml",
+    ],
+    "demo": [],
+    "installable": True,
+    "application": True,
     "assets": {
         "web.assets_backend": [
             "g2p_superset_dashboard/static/src/components/**/*.js",
