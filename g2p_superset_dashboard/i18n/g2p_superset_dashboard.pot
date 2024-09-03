@@ -14,53 +14,87 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: g2p_superset_dashboard
-#: model:ir.model,name:g2p_superset_dashboard.model_res_config_settings
-msgid "Config Settings"
+#: model:ir.model.fields,field_description:g2p_superset_dashboard.field_g2p_superset_dashboard_config__access_user_ids
+msgid "Access Rights"
 msgstr ""
 
 #. module: g2p_superset_dashboard
-#: model:ir.actions.client,name:g2p_superset_dashboard.action_g2p_superset_dashboard
-#: model:ir.ui.menu,name:g2p_superset_dashboard.menu_g2p_superset_dashboard
-msgid "Dashboard"
+#: model:ir.model.fields,field_description:g2p_superset_dashboard.field_g2p_superset_dashboard_config__create_uid
+msgid "Created by"
 msgstr ""
 
 #. module: g2p_superset_dashboard
-#: model_terms:ir.ui.view,arch_db:g2p_superset_dashboard.superset_dashboard_res_config_settings_view_form
-msgid ""
-"Enter the URL for your Superset instance to configure the dashboard. URL "
-"must start with 'http://' or 'https://'"
+#: model:ir.model.fields,field_description:g2p_superset_dashboard.field_g2p_superset_dashboard_config__create_date
+msgid "Created on"
 msgstr ""
 
 #. module: g2p_superset_dashboard
-#: model_terms:ir.ui.view,arch_db:g2p_superset_dashboard.superset_dashboard_res_config_settings_view_form
-msgid "G2P Superset Dashboard Settings"
+#: model:ir.ui.menu,name:g2p_superset_dashboard.menu_superset_dashboard_config
+#: model_terms:ir.ui.view,arch_db:g2p_superset_dashboard.view_superset_dashboard_form
+msgid "Dashboard Configuration"
+msgstr ""
+
+#. module: g2p_superset_dashboard
+#: model:ir.model.fields,field_description:g2p_superset_dashboard.field_g2p_superset_dashboard_config__name
+msgid "Dashboard Name"
+msgstr ""
+
+#. module: g2p_superset_dashboard
+#: model:ir.model.fields,field_description:g2p_superset_dashboard.field_g2p_superset_dashboard_config__url
+msgid "Dashboard URL"
+msgstr ""
+
+#. module: g2p_superset_dashboard
+#: model:ir.model.fields,field_description:g2p_superset_dashboard.field_g2p_superset_dashboard_config__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: g2p_superset_dashboard
+#: model:ir.actions.client,name:g2p_superset_dashboard.action_superset_dashboard_embedded
+msgid "Embedded Dashboard"
+msgstr ""
+
+#. module: g2p_superset_dashboard
+#: model:ir.model.fields,field_description:g2p_superset_dashboard.field_g2p_superset_dashboard_config__id
+msgid "ID"
+msgstr ""
+
+#. module: g2p_superset_dashboard
+#: model:ir.model.fields,field_description:g2p_superset_dashboard.field_g2p_superset_dashboard_config__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: g2p_superset_dashboard
+#: model:ir.model.fields,field_description:g2p_superset_dashboard.field_g2p_superset_dashboard_config__write_date
+msgid "Last Updated on"
 msgstr ""
 
 #. module: g2p_superset_dashboard
 #. odoo-javascript
-#: code:addons/g2p_superset_dashboard/static/src/components/dashboard/superset_dashboard_view.xml:0
+#: code:addons/g2p_superset_dashboard/static/src/components/dashboard/superset_dashboard_embedding_templates.xml:0
 #, python-format
 msgid "Loading Superset Dashboard"
 msgstr ""
 
 #. module: g2p_superset_dashboard
 #. odoo-javascript
-#: code:addons/g2p_superset_dashboard/static/src/components/dashboard/superset_dashboard_view.xml:0
+#: code:addons/g2p_superset_dashboard/static/src/components/dashboard/superset_dashboard_embedding_templates.xml:0
 #, python-format
-msgid "Superset Dashboard URL not set"
+msgid "No Dashboards Available"
 msgstr ""
 
 #. module: g2p_superset_dashboard
-#: model_terms:ir.ui.view,arch_db:g2p_superset_dashboard.superset_dashboard_res_config_settings_view_form
-msgid "Superset Instance URL"
+#: model:res.groups,name:g2p_superset_dashboard.group_superset_dashboard_admin
+msgid "Superset Dashboard Admin"
 msgstr ""
 
 #. module: g2p_superset_dashboard
-#: model:ir.model.fields,field_description:g2p_superset_dashboard.field_res_config_settings__superset_url
-msgid "Superset URL"
+#: model:ir.actions.act_window,name:g2p_superset_dashboard.action_superset_dashboard_config
+#: model:ir.model,name:g2p_superset_dashboard.model_g2p_superset_dashboard_config
+msgid "Superset Dashboard Configuration"
 msgstr ""
 
 #. module: g2p_superset_dashboard
-#: model_terms:ir.ui.view,arch_db:g2p_superset_dashboard.superset_dashboard_res_config_settings_view_form
-msgid "e.g. http://localhost:8088"
+#: model:ir.ui.menu,name:g2p_superset_dashboard.menu_superset_dashboard_embedded
+msgid "Superset Dashboards"
 msgstr ""
