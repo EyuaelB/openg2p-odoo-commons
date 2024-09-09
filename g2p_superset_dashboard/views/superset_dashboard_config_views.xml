@@ -5,7 +5,7 @@
         <field name="arch" type="xml">
             <tree editable="bottom">
                 <field name="name" />
-                <field name="url" />
+                <field name="url" placeholder="Start with 'http://' or 'https://" />
                 <field name="menu_name" />
                 <field name="group_name" />
             </tree>
